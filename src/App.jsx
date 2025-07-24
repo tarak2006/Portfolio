@@ -48,7 +48,7 @@ const About = () => (
           <img src={aboutPhoto} alt="Tarak" className="about-image" /> {/* Image for about section */}
         </div>
         <div className="about-text-content"> {/* Content wrapper for text */}
-          <h3>Welcome to My Portfolio!</h3>
+          <h3>Hi, I'm Ande Taraka Srinivas!</h3>
           <p>
             I am a third-year Computer Science Engineering student at Amrita Vishwa Vidyapeetham,
             Coimbatore, with a keen interest in developing robust and user-friendly software solutions.
