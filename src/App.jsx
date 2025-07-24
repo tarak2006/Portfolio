@@ -195,7 +195,7 @@ const Resume = () => (
     <div className="section-content-wrapper">
       <h2>Résumé</h2>
       <p>You can view and download my comprehensive résumé by clicking the button below.</p>
-      <a href="/tarak-resume.pdf" className="cta-button" download>Download Résumé</a>
+      <a href="/tarak_resume.pdf" className="cta-button" download>Download Résumé</a>
     </div>
   </section>
 );

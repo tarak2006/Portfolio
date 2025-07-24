@@ -2,18 +2,18 @@
 :root {
   --bg-color: #0d1117; /* Even darker background, inspired by GitHub dark theme */
   --primary-surface-color: #161b22; /* Slightly lighter for card backgrounds */
-  --secondary-surface-color: #21262d;
+  --secondary-surface-color: #000000;
   --text-color: #c9d1d9; /* Lighter text for better contrast */
-  --primary-color: #58a6ff; /* A vibrant blue */
+  --primary-color: #31669c; /* A vibrant blue */
   --secondary-color: #8b949e; /* Muted grey for secondary text */
   --accent-color: #a371f7; /* A touch of purple for accents */
-  --border-color: #30363d;
+  --border-color: #000000;
   --header-height: 80px; /* Define header height for calc() */
   --content-max-width: 900px; /* Define a max-width for internal content */
 
   /* New colors for project card elements */
-  --project-card-bg: #1f252d; /* Slightly lighter than primary-surface-color for card distinctiveness */
-  --button-bg: #2d333b; /* Darker grey for buttons */
+  --project-card-bg: #000205; /* Slightly lighter than primary-surface-color for card distinctiveness */
+  --button-bg: #03060a; /* Darker grey for buttons */
   --button-text: #58a6ff; /* Primary color for button text */
 }
 
@@ -328,7 +328,7 @@ h2::after {
   background-color: var(--primary-color); /* Primary color on hover */
   color: var(--bg-color); /* Dark text on hover */
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(88, 166, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -505,14 +505,14 @@ h2::after {
   font-weight: 700;
   letter-spacing: 0.5px;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 170, 255, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 5, 7, 0.3);
 }
 
 .cta-button:hover {
   background-color: var(--accent-color);
   color: #fff;
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(163, 113, 247, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* --- Footer --- */
